@@ -1,0 +1,84 @@
+/* GENERAL STYLE */
+
+/* Text style */
+
+@font-face {
+    font-family: 'Epilogue';
+    src: url('font/Epilogue-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'boltEpilogue';
+    src: url('font/Epilogue-Bold.ttf') format('truetype');
+}
+
+/* Container text style */
+
+.navbar-text {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 16px;
+    color: hsl(0, 0%, 41%);
+}
+
+.container-title {
+    font-family: 'boltEpilogue', sans-serif;
+    font-size: 68px;
+}
+
+.text-paragraph {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 18px;
+    color: hsl(0, 0%, 41%);
+}
+
+/* Navbar style */
+
+.navbar-logo {
+    width: 100px;
+    height: 30px;
+}
+
+.colum-container {
+    max-width: 500px;
+}
+
+/* Image style */
+
+.hero-image {
+    height: auto;
+    width: 395px;
+}
+
+/* Button style */
+
+.register-button {
+    border: 1px solid hsl(0, 0%, 41%);
+}
+
+.register-button:hover {
+    border: 2px solid hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 8%);
+}
+
+.content-button {
+    color: hsl(0, 0%, 98%);
+    background: hsl(0, 0%, 8%);
+}
+
+.content-button:hover {
+    border: 1px solid hsl(0, 0%, 8%);
+    font-weight: 600;
+}
+
+/* Footer style */
+
+.attribution {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    font-family: 'Epilogue', sans-serif;
+    color: hsl(228, 45%, 44%);
+}
