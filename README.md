@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Intro-section-with-dropdown-navigation](https://github.com/danielaser/Intro-section-with-dropdown-navigation)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Intro section dropdown nav](https://intro-section-dropdown-nav.netlify.app/)
 
 ## My process
 
