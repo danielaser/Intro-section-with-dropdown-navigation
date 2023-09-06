@@ -38,6 +38,11 @@
     height: 30px;
 }
 
+.icon-features {
+    height: 20px;
+    width: 25px;
+}
+
 .colum-container {
     max-width: 500px;
 }
@@ -47,6 +52,28 @@
 .hero-image {
     height: auto;
     width: 395px;
+}
+
+.client-image {
+    width: inherit;
+}
+
+/* Dropdown style */
+
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.3em;
+    vertical-align: 0.2em;
+    content: url(./images/icon-arrow-down.svg);
+    border: 0;
+}
+
+.nav-link.show::after {
+    display: inline-block;
+    margin-left: 0.3em;
+    vertical-align: 0.2em;
+    content: url(./images/icon-arrow-up.svg);
+    border: 0;
 }
 
 /* Button style */
@@ -81,4 +108,83 @@
 .attribution a {
     font-family: 'Epilogue', sans-serif;
     color: hsl(228, 45%, 44%);
+}
+
+/* Responsive style */
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        max-width: inherit;
+        padding-inline: 0 !important;
+    }
+
+    .responsive-container {
+        flex-wrap: wrap-reverse;
+    }
+
+    .colum-container {
+        padding: 2em 0em 0em 0em !important;
+        max-width: 85%;
+        text-align: center;
+    }
+
+    .container-title {
+        font-size: 50px;
+    }
+
+    .colum-image-container {
+        max-width: inherit;
+    }
+
+    .responsive-title {
+        padding-top: 0 !important;
+    }
+
+    .hero-image {
+        content: url(./images/image-hero-mobile.png);
+        width: inherit;
+    }
+
+    .offcanvas {
+        width: 250px !important;
+    }
+
+    .btn-close {
+        font-size: x-large;
+    }
+
+    .responsive-login {
+        justify-content: center;
+        align-items: center;
+        margin-right: 0 !important;
+    }
+
+    .register-button {
+        padding-inline: 4em !important;
+    }
+
+    .attribution {
+        padding-top: 2em;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container-title {
+        font-size: 35px;
+    }
+
+    .text-paragraph {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container-title {
+        font-size: 30px;
+    }
+
+    .text-paragraph {
+        font-size: 14px;
+    }
 }
